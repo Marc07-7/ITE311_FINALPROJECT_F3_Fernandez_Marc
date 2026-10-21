@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #eef6f8; color: #19303a; }
+.topbar { background: #0b5563; color: #fff; display: flex; justify-content: space-between; align-items: center; padding: 14px 28px; flex-wrap: wrap; }
+.brand { font-size: 1.35rem; font-weight: 700; }
+.brand span { color: #7fd6a4; }
+nav a { color: #bfe3ea; text-decoration: none; margin-left: 18px; padding: 4px 0; }
+nav a:hover, nav a.active { color: #fff; border-bottom: 2px solid #7fd6a4; }
+.container { max-width: 1000px; margin: 26px auto; padding: 0 16px; }
+.foot { text-align: center; padding: 22px; color: #62808a; font-size: .85rem; }
+.hero { background: linear-gradient(135deg, #0b5563, #2b8a6e); color: #fff; padding: 34px 28px; border-radius: 12px; margin-bottom: 22px; }
+.hero h2 { margin: 0 0 8px; }
+.panel { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 1px 5px rgba(0,0,0,.08); margin-bottom: 20px; }
+.tiles { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+.tile { flex: 1; min-width: 160px; background: #fff; border-left: 5px solid #2b8a6e; padding: 18px; border-radius: 8px; box-shadow: 0 1px 5px rgba(0,0,0,.08); }
+.tile b { display: block; font-size: 2rem; color: #0b5563; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 5px rgba(0,0,0,.08); }
+.card h3 { margin: 0 0 6px; }
+.muted { color: #62808a; font-size: .9rem; }
+label { display: block; margin: 12px 0 4px; font-weight: 600; }
+input, select, textarea { width: 100%; padding: 9px; border: 1px solid #b4cdd4; border-radius: 5px; font-family: inherit; }
+input[type=checkbox] { width: auto; }
+button { background: #0b5563; color: #fff; border: 0; padding: 9px 16px; border-radius: 5px; cursor: pointer; }
+button.danger { background: #c0392b; }
+.alert { padding: 10px 14px; border-radius: 5px; margin-bottom: 12px; }
+.alert.good { background: #d9f2e4; color: #145a32; }
+.alert.bad { background: #fadbd8; color: #7b241c; }
+.badge { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: .78rem; color: #fff; background: #2b8a6e; margin-right: 4px; }
+.badge.warn { background: #d68910; }
+.badge.red { background: #c0392b; }
+.badge.gray { background: #7b8d93; }
+.badge.gold { background: #b7950b; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; align-items: end; }
+.row > div { flex: 1; min-width: 150px; }
+.inline { display: inline; }

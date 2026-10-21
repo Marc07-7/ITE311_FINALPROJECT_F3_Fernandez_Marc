@@ -1,0 +1,14 @@
+# Runtime data
+data/*.json
+
+# Environment and dependencies
+.env
+vendor/
+node_modules/
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
